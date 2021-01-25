@@ -1,0 +1,12 @@
+num1 = input ("Ingresa un número:")
+num2 = input ("Ingresa otro número o un número para sacar el porcentaje:")
+res_suma = float (num1) + float(num2)
+res_resta = float (num1) - float (num2)
+res_multi = float (num1) * float (num2)
+res_divi = float (num1) / float (num2)
+
+print ("El resultado que necesitas saber es:", res_suma)
+print ("El resultado de la resta es:", res_resta)
+print ("El resultado de la multiplicación es:", res_multi)
+print ("El resultado de la división es:", res_divi)
+print ("Gracias por utilizar nuestro programa".upper())
