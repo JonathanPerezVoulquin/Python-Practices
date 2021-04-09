@@ -1,5 +1,5 @@
 """
-JUEGO ADIVINA HECHO POR MI.
+JUEGO ADIVINA by Jonathan Perez
 """
 
 """
