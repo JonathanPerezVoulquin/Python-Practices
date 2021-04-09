@@ -10,7 +10,7 @@ limite = 15
 adivina = random.randint (1,limite)
 
 nombre = input("como te llamas?" "\n")
-print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo de m$%&@huana armado?")
+print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo  armado?")
 print("SOLO TENES QUE ADIVINAR EL NÚMERO ENTRE 1 Y " + str(limite))
 print ("TENES " + str(chances) + " CHANCES")
 
@@ -58,7 +58,7 @@ while True:
 		nombre = input("como te llamas?" "\n")
 		print("-------O--------")
 		print("-------O--------")
-		print("HOLA" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo de m$%&@huana armado?")
+		print("HOLA" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo armado?")
 		print("\n")
 		print("-------O--------")
 		print("-------O--------")

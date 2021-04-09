@@ -3,7 +3,7 @@ import random
 adivina = random.randint (1,6)
 
 nombre = input("como te llamas?" "\n")
-print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo de marihuana armado?")
+print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo armado?")
 print ("Solo tenes 3 posibilidades")
 
 #Acá se declara la primer chance y la variable n°
