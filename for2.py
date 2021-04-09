@@ -27,3 +27,10 @@ for i in range(10,-1,-1):
 	if encontrado == i:
 		print("el número se encuentra en la lista en la posición:", i)
 """
+
+value = 9
+
+for i in range (10,-1,2):
+	print(i)
+	if value == i:
+		print("el número se encuentra en la lista en la posición:",i)
