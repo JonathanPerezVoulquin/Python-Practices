@@ -1,6 +1,6 @@
 import random
 
-adivina = random.randint (1,12)
+adivina = random.randint (1,6)
 
 nombre = input("como te llamas?" "\n")
 print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo de marihuana armado?")
