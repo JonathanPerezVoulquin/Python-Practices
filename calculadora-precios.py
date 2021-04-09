@@ -1,4 +1,4 @@
-#FUNCIONES
+#FUNCIONES 
 def menu():
 	print("(1)Limpieza de sillones")
 	print("(2)Limpieza de sillas")
