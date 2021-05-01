@@ -1,3 +1,6 @@
+"""
+by Jonathan Perez
+"""
 #FUNCIONES 
 def menu():
 	print("(1)Limpieza de sillones")
