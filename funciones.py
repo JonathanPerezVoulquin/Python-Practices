@@ -10,7 +10,7 @@ def numeros(num1,num2):
 	
 	print("La suma de tus numeros es:" + str( num1 + num2) + "\n""GRACIAS POR UTILIZAR NUESTRO PROGRAMA PYTHON")
 
-numeros(2,5)	
+numeros(2,5)
 
 
 ###FUNCIÓN LAMBDA las funciones lamba sirven cuando necesitamos utilizar una sola expresión

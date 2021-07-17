@@ -1,7 +1,6 @@
 # Global and Local variable with different name
 x = "global"  # Global variable can be accesed from anywhere
 
-
 def fuct1():
     global x
     y = "local"
