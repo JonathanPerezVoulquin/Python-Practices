@@ -10,3 +10,11 @@ print(numbers)
 newList = numbers[::-1]
 print(newList)
 
+
+#find the index of a number from a list
+file = 52
+
+for j in range(len(numbers)):
+    if numbers[j] == file:
+       print("the number", file, "is in the position:", j)
+

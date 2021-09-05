@@ -14,7 +14,7 @@ if respuesta == "si":
 	print("Cuantos años tienes?")
 	edad = input()
 	if ingreso_edad (int(edad)):
-		print("Eres mayor, fumate uno y disfruta de la vida ")
+		print("Eres mayor,disfruta de la vida ")
 	else:
 		print("LARGO DE AQUÍ, te recomiendo www.barneyeldinosaurio.com")	
 
