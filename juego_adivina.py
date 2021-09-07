@@ -3,14 +3,14 @@ import random
 adivina = random.randint (1,6)
 
 nombre = input("como te llamas?" "\n")
-print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo armado?")
+print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganar?")
 print ("Solo tenes 3 posibilidades")
 
 #Acá se declara la primer chance y la variable n°
 num = int(input("intenta adivinar, elige un n° del 1 al 12:" "\n"))
 
 if num == adivina:
-	print("GANASTE UN CHARUTO")
+	print("GANASTE UN CHOCOLATE")
 	print("Decile a cacha que te haga 'UOOO'")	
 else:
 	if num != adivina:
@@ -21,7 +21,7 @@ else:
 	num = int(input("intenta adivinar, elige un n° del 1 al 12:" "\n"))
 
 	if num == adivina:
-		print("FELICITACIONES, GANASTE UN CHARUTO")
+		print("FELICITACIONES, GANASTE UN CHOCOLATE")
 		print("Decile a cacha que te haga 'UOOO'")	
 	else:
 		if num != adivina:
@@ -31,15 +31,8 @@ else:
 		num = int(input("Última oportunidad:" "\n"))
 
 		if num == adivina:
-			print("FELICITACIONES, GANASTE UN CHARUTO")
+			print("FELICITACIONES, GANASTE UN CHOCOLATE")
 			print("Decile a cacha que te haga 'UOOO'")	
 		else:
 			if num != adivina:
 				print("PERDISTE,TE QUEDAS SIN FUMAR, " + nombre.upper() )
-
-					
-
-
-
-
-

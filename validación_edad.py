@@ -10,7 +10,7 @@ nombre = input("Bienvenido, cual es tu nombre?:")
 print("Hola" "\n" + nombre)
 
 respuesta = input("Eres Mayor de edad?")
-if respuesta == "si":
+if respuesta == "si" or "SI":
 	print("Cuantos años tienes?")
 	edad = input()
 	if ingreso_edad (int(edad)):

@@ -10,7 +10,7 @@ limite = 15
 adivina = random.randint (1,limite)
 
 nombre = input("como te llamas?" "\n")
-print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo  armado?")
+print("Hola" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganar?")
 print("SOLO TENES QUE ADIVINAR EL NÚMERO ENTRE 1 Y " + str(limite))
 print ("TENES " + str(chances) + " CHANCES")
 
@@ -22,11 +22,11 @@ intentos = 0
 while intentos < chances:
 	num = int(input("Ingresa un número" "\n" ">>"))
 	if num == adivina:
-		print("GANASTE UN CHARUTO, PEDILE A CACHA QUE TE ARME UNO")
+		print("GANASTE, Muy bien jugado)
 		break
 
 	elif intentos == chances - 1:
-		print("PERDISTE, TE QUEDAS SIN FUMAR -.-")
+		print("PERDISTE -.-")
 
 	elif num > adivina:
 		print("PERDISTE UNA CHANCE" "\n" "intenta con un número más chico"  "\n" )
@@ -58,7 +58,7 @@ while True:
 		nombre = input("como te llamas?" "\n")
 		print("-------O--------")
 		print("-------O--------")
-		print("HOLA" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganarte un cigarrillo armado?")
+		print("HOLA" "\n"+ nombre.upper() + "\n""estas listo para jugar y ganar?")
 		print("\n")
 		print("-------O--------")
 		print("-------O--------")
@@ -74,13 +74,13 @@ while True:
 		
 			num = int(input("Ingresa un número" "\n" ">>"))
 			if num == adivina:
-				print("GANASTE UN CHARUTO, PEDILE A CACHA QUE TE ARME UNO")
+				print("GANASTE UN CHOCOLATE")
 				print(" (̅_̅_̅(̅__̅l̲̅u̲̅c̲̅k̲̅y̲̲̅̅̅_̅_̅_̅̅()ڪ")	
 				print()
 				break
 
 			elif intentos == chances - 1:
-				print("PERDISTE, TE QUEDAS SIN FUMAR -.-" "\n" "✦Gѧмԑ╰‿╯0ver✦")
+				print("PERDISTE,MEJOR SUERTE LA PRÓXIMA -.-" "\n" "✦Gѧмԑ╰‿╯0ver✦")
 				print("-------O--------")
 
 			elif num > adivina:
